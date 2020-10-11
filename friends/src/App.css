@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+body {
+  background-image: url ('https://english.mathrubhumi.com/polopoly_fs/1.4136704.1569075390!/image/image.jpg_gen/derivatives/landscape_728_450/image.jpg')
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
