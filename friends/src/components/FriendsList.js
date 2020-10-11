@@ -14,7 +14,7 @@ const mapStateToProps = (state) => {
 function FriendsList(props){
     props.fetchFriends()
 
-    useEffect(()=>{
+    useEffect((props)=>{
         props.fetchFriends()
     },[])
     return(

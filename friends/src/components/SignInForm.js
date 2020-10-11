@@ -29,12 +29,13 @@ const authorize = e => {
         <Input type="text"
             name="username"
             value={credentials.username}
-            onChange={handleChange} placeholder="badassusername" />
+            onChange={handleChange} placeholder="me@awesome.com" />
       </FormGroup>
       <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
         <Label for="examplePassword" className="mr-sm-2">Password</Label>
         <Input value={credentials.password}
-            onChange={handleChange} type="password" name="password" id="examplePassword" placeholder="don't tell!" />
+            onChange={handleChange} type="password" name="password" id="examplePassword" placeholder="plz not abc123
+        " />
       </FormGroup>
       <Button>Submit</Button>
     </Form>
